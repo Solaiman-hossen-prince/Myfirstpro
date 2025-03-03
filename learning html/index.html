@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>| | This PC</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="image">
+        <img class="img1" src="image/ict.png" alt="ict" />
+        <img class="img2" src="image/project.png" alt="project" />
+        <img class="img3" src="image/dual.png" alt="dual" />
+      </div>
+      <hr />
+      <div class="navbar">
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>Course Module</li>
+            <li>Class schedule</li>
+            <li>Success Story</li>
+            <li>Attendence</li>
+            <li>FAQ</li>
+            <li>Login</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <div class="heading-section">
+        <h2>Student Registration Form</h2>
+        <hr />
+        <h3>Please Enter Relavent Information</h3>
+      </div>
+      <div class="form-section">
+        <form>
+          <div class="left-form">
+            <h3>Mandatory Field *</h3>
+            <br />
+            <label for="district">Institute District *</label>
+            <select id="district" name="district">
+              <option value="select one" selected>--Select one--</option>
+              <option value="dhaka">Dhaka</option>
+              <option value="maymenshingh">Maymenshingh</option>
+              <option value="rajshahi">Rajshahi</option>
+            </select>
+            <br />
+
+            <label for="courses">Courses *</label>
+            <select id="courses" name="courses">
+              <option value="select one" selected>--Select one--</option>
+              <option value="MERN Stack">MERN Stack</option>
+              <option value="Python">Python</option>
+              <option value="DevOps">DevOps</option>
+            </select>
+            <br />
+
+            <label for="Student">Student Name *</label>
+            <input type="text" placeholder="Name" />
+            <br />
+            <label for="Father">Father's Name *</label>
+            <input type="text" placeholder="Fathers Name" />
+            <br />
+            <label for="Mother">Mother's Name *</label>
+            <input type="text" placeholder="Mother's Name" />
+            <br />
+            <label for="birth">Date of birth *</label>
+            <div class="birth">
+              Day<input type="number" />
+              Manth<input type="number" />
+              Year<input type="number" />
+            </div>
+            <br />
+
+            <div class="gender">
+              <h4>Gender</h4>
+              <input type="radio" id="male" name="gender" value="male" />
+              <label class="male" for="male">Male</label>
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">Female</label>
+            </div>
+            <br />
+
+            <div class="literacy">
+              <p>
+                Did you participate in 15 days literacy training of LEDP? (Only
+                for Female)
+              </p>
+              <input type="radio" id="yes" name="literacy" value="yes" />
+              <label class="yes" for="yes">Yes</label>
+              <input type="radio" id="no" name="literacy" value="no" />
+              <label for="no">No</label>
+            </div>
+            <br />
+
+            <div class="literacy">
+              <p>Physically Handicapped *</p>
+              <input type="radio" id="yes" name="literacy" value="yes" />
+              <label class="yes" for="yes">Yes</label>
+              <input type="radio" id="no" name="literacy" value="no" />
+              <label for="no">No</label>
+            </div>
+            <br />
+
+            <div class="email">
+              <label for="email">Enter your email:</label>
+              <input type="email" id="email" name="email" />
+              <label for="phonNumber">Enter your Phone Number:</label>
+              <input type="number" id="phonNumber" name="number" />
+            </div>
+          </div>
+
+          <div class="right-form">
+            <label for="Identification">Identification Type *</label>
+            <select id="Identification" name="Identification">
+              <option value="select one" selected>--Select one--</option>
+              <option value="Nationan ID">Nationan ID</option>
+              <option value="Birth Certificate">Birth Certificate</option>
+            </select>
+            <br />
+
+            <div class="nidno">
+              <label for="number">Enter your Identification No. *</label>
+              <input type="number" id="number" name="number" />
+            </div>
+            <br />
+
+            <label for="homedistrict">Home District *</label>
+            <select id="homedistrict" name="homedistrict">
+              <option value="select one" selected>--Select one--</option>
+              <option value="dhaka">Dhaka</option>
+              <option value="maymenshingh">Maymenshingh</option>
+              <option value="rajshahi">Rajshahi</option>
+            </select>
+            <br />
+
+            <label for="Upazilla">Upazilla *</label>
+            <select id="Upazilla" name="Upazilla">
+              <option value="select one" selected>--Select one--</option>
+              <option value="dhaka">Dhaka</option>
+              <option value="maymenshingh">Maymenshingh</option>
+              <option value="rajshahi">Rajshahi</option>
+            </select>
+            <br />
+
+            <label for="address"
+              >Village/House No./Road No./Other Alternative *</label
+            >
+            <input type="text" placeholder="Address" />
+            <br />
+            <label for="post">Post Office *</label>
+            <input type="text" placeholder="Post Office" />
+            <br />
+
+            <label for="education">Educational Qualification *</label>
+            <select id="education" name="education">
+              <option value="select one" selected>--Select one--</option>
+              <option value="SSC">SSC</option>
+              <option value="HSC">HSC</option>
+              <option value="BA">BA</option>
+            </select>
+            <br />
+
+            <div class="computer">
+              <p>Do you have any computer?*</p>
+              <input type="radio" id="yes" name="computer" value="yes" />
+              <label class="yes" for="yes">Yes</label>
+              <input type="radio" id="no" name="computer" value="no" />
+              <label for="no">No</label>
+            </div>
+            <br />
+
+            <div class="photo">
+              <p>Photograph*</p>
+              <br />
+              <label for="myfile">Select a file:</label>
+              <input type="file" id="myfile" name="myfile" /> <br />
+              <br />
+              <p>File type:jpg.jpeg.png</p>
+            </div>
+            <br />
+
+            <div class="photo">
+              <p>Signature*</p>
+              <br />
+              <label for="myfile">Select a file:</label>
+              <input type="file" id="myfile" name="myfile" /> <br />
+              <br />
+              <p>File type:jpg.jpeg.png</p>
+            </div>
+            <br />
+            <div class="submit">
+              <input type="submit" value="Submit" />
+              <input type="reset" value="Reset" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <script></script>
+  </body>
+</html>

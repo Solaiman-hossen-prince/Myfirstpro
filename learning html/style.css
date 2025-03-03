@@ -1,0 +1,176 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    margin: 20px 20px;
+}
+img{
+    height: 120px;
+    width: 160px;
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+    background-image: linear-gradient(180deg, rgb(250, 245, 245), rgb(155, 152, 152));
+    padding: 30px;
+    margin-top: 5px;
+    transition: 0.5s;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 10px;
+    background:transparent;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px 0 rgba(202, 2, 2, 0.2), 0 5px 10px 10px rgba(228, 1, 1, 0.19);
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+}
+nav ul li:hover{
+    background-image: linear-gradient(100deg, rgb(6, 109, 23), rgb(15, 219, 42));
+    box-shadow: 0 10px 10px 0 rgba(255, 255, 255, 0.966), 10px 10px 10px 10px rgba(240, 236, 237, 0.986);
+    transition: 0.5s;
+   
+}
+section{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.heading-section{
+    margin: 20px 20px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.heading-section h3, h2{
+    padding: 10px;
+}
+.heading-section h2{
+    color: rgb(194, 118, 4);
+}
+.form-section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 900px;
+}
+form{
+    display: flex;
+}
+.left-form{
+    width: 700px;
+    margin-right:20px;
+    border: 1px solid #221155;
+    height: 900px;    
+    padding: 20px;
+}
+.right-form{
+    width: 700px;
+    border: 1px solid #221155;
+    height: 900px;
+    padding: 20px;
+}
+select {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 5px;
+}
+input[type="text"]{
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 5px;
+}
+.birth{
+    display: flex;
+}
+.birth input[type="number"] {
+    width: 30%;
+    height:30px;
+    font-size: 16px;
+    padding: 7px;
+    margin: 5px; 
+}
+.male, .yes{
+    margin-right:20px;
+}
+.email input[type="email"], input[type="number"] {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 5px;
+}
+.submit input{
+    padding: 10px;
+    background-image: linear-gradient(100deg, rgb(6, 109, 23), rgb(15, 219, 42));
+    box-shadow: 5px 5px 5px 5px rgba(49, 49, 49, 0.2), 0 5px 5px 5px rgba(248, 5, 5, 0.19);
+    margin: 20px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s;
+
+}
+
+.submit input:hover{
+    background-image: linear-gradient(100deg, rgb(238, 216, 15), rgb(236, 63, 19));
+    box-shadow: 15px 5px 5px 5px rgba(207, 3, 3, 0.2), 10px 5px 5px 5px rgba(194, 2, 2, 0.19);
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 600px) {
+    form{
+        display: block;
+
+    }
+    .left-form, .right-form{
+        width: 100%;
+        border: 1px solid #221155;
+        height: auto;    
+        padding: 10px;
+    }
+    nav ul li {
+        display: block;
+        margin-top: 15px;
+    }
+    .navbar{
+        height: auto;
+        width: 100%;
+    }
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
